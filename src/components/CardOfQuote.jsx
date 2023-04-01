@@ -1,10 +1,8 @@
-//import checkLocalStorage from './typescript/checkLocalStorage.ts';
 import likeInLocalStorage from './typescript/likeInLocalStorage.ts';
-import check from './typescript/check.ts';
+import check from './typescript/checkInLocalStorage.js';
 
 import styles from './CardOfQuote.module.css';
 import { ReactComponent as Like } from '../img/heart-02-svgrepo-com.svg';
-//import checkInLocalStorage from './typescript/checkLocalStorage.ts';
 
 function CardOfQuote({ prop }) {
   return (
