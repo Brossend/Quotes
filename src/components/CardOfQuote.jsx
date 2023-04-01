@@ -19,11 +19,11 @@ function CardOfQuote({ prop }) {
         <Like
           id={prop._id}
           className={styles.likeIcon}
-          onLoad={checkLocalStorage(prop._id)}
           height="50"
           width="50"
         />
       </button>
+      {checkLocalStorage(prop._id)}
     </div>
   );
 }
