@@ -23,7 +23,6 @@ function CardOfQuote({ prop }) {
           width="50"
         />
       </button>
-      {checkLocalStorage(prop._id)}
     </div>
   );
 }
