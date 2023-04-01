@@ -1,4 +1,4 @@
-import styles from '../CardOfQuote.module.css';
+//import styles from '../CardOfQuote.module.css';
 
 function checkInLocalStorage(id: string) {
   const item: any = document.getElementById(id);
