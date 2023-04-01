@@ -8,7 +8,6 @@ function checkInLocalStorage(id: string) {
   if (localStorage.getItem(id) === 'true') {
     if (item !== null) {
       item!.style.fill = 'tomato';
-      item!.style.stroke = 'tomato';
     }
   }
 }
