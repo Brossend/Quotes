@@ -1,5 +1,5 @@
 import likeInLocalStorage from './typescript/likeInLocalStorage.ts';
-import check from './typescript/checkInLocalStorage.js';
+import checkInLocalStorage from './typescript/checkInLocalStorage.ts';
 
 import styles from './CardOfQuote.module.css';
 import { ReactComponent as Like } from '../img/heart-02-svgrepo-com.svg';
@@ -12,7 +12,7 @@ function CardOfQuote({ prop }) {
       <h1 className={` ${styles.content}`}>{prop.content}</h1>
       <p className={`${styles.contentDescription}`}>Author: {prop.author}</p>
 
-      {check(prop._id) ? (
+      {checkInLocalStorage(prop._id) ? (
         <button
           className={`${styles.likeButton}`}
           onClick={() => likeInLocalStorage(prop._id)}
