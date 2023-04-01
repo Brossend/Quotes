@@ -1,0 +1,13 @@
+.container {
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+
+  font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 36px);
+  font-weight: 400;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

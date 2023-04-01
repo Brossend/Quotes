@@ -1,0 +1,51 @@
+.container {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+
+  padding: 20px;
+  margin-bottom: 15px;
+
+  transition: border-color 0.4s;
+}
+
+.container:hover {
+  border-color: #73a678;
+
+  transition: border-color 0.4s;
+}
+
+.content {
+  font-size: 20px;
+  font-weight: 600;
+
+  color: black;
+
+  transition: color 0.4s;
+}
+
+.content:hover {
+  color: #73a678;
+
+  transition: color 0.4s;
+}
+
+.containerDescription {
+  margin-top: 20px;
+}
+
+.contentDescription {
+  font-size: 14px;
+  font-weight: 400;
+
+  margin-top: 6px;
+
+  color: black;
+
+  transition: color 0.4s;
+}
+
+.contentDescription:hover {
+  color: #73a678;
+
+  transition: color 0.4s;
+}

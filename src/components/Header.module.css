@@ -1,0 +1,43 @@
+.header {
+  position: sticky;
+  top: 0;
+
+  height: 50px;
+  width: auto;
+
+  border-bottom: 1px solid #e5e5e5;
+
+  background-color: rgba(0, 0, 0, 0.01);
+
+  backdrop-filter: blur(2px);
+
+  margin-bottom: 15px;
+
+  justify-content: center;
+}
+
+.nav {
+  display: block;
+
+  padding-top: 13px;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  font-size: 18px;
+  font-weight: 300;
+
+  color: black;
+
+  text-align: center;
+
+  transition: all 0.4s;
+}
+
+.nav:hover {
+  color: #73a678;
+
+  font-weight: 500;
+
+  transition: all 0.4s;
+}
