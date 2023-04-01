@@ -1,8 +1,10 @@
-import checkLocalStorage from './typescript/checkLocalStorage.ts';
+//import checkLocalStorage from './typescript/checkLocalStorage.ts';
 import likeInLocalStorage from './typescript/likeInLocalStorage.ts';
+import check from './typescript/check.ts';
 
 import styles from './CardOfQuote.module.css';
 import { ReactComponent as Like } from '../img/heart-02-svgrepo-com.svg';
+//import checkInLocalStorage from './typescript/checkLocalStorage.ts';
 
 function CardOfQuote({ prop }) {
   return (
@@ -12,17 +14,31 @@ function CardOfQuote({ prop }) {
       <h1 className={` ${styles.content}`}>{prop.content}</h1>
       <p className={`${styles.contentDescription}`}>Author: {prop.author}</p>
 
-      <button
-        className={`${styles.likeButton}`}
-        onClick={() => likeInLocalStorage(prop._id)}
-      >
-        <Like
-          id={prop._id}
-          className={styles.likeIcon}
-          height="50"
-          width="50"
-        />
-      </button>
+      {check(prop._id) ? (
+        <button
+          className={`${styles.likeButton}`}
+          onClick={() => likeInLocalStorage(prop._id)}
+        >
+          <Like
+            id={prop._id}
+            className={styles.likeIconActive}
+            height="50"
+            width="50"
+          />
+        </button>
+      ) : (
+        <button
+          className={`${styles.likeButton}`}
+          onClick={() => likeInLocalStorage(prop._id)}
+        >
+          <Like
+            id={prop._id}
+            className={styles.likeIcon}
+            height="50"
+            width="50"
+          />
+        </button>
+      )}
     </div>
   );
 }
