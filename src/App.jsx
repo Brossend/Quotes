@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="quotes/" element={<MainLayout />}>
+          <Route path="/quotes/" element={<MainLayout />}>
             <Route index element={<MainPage />} />
-            <Route path="/:category" element={<QuoteByCategory />} />
+            <Route path="/quotes/:category" element={<QuoteByCategory />} />
           </Route>
         </Routes>
       </div>
