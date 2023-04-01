@@ -7,7 +7,7 @@ function checkInLocalStorage(id: string) {
 
   if (localStorage.getItem(id) === 'true') {
     if (item !== null) {
-      item!.classList.add(styles.likeIconActive);
+      item!.fillStyle = 'tomato';
     }
   }
 }
