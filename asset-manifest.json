@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/quotes/static/css/main.f59f3679.css",
-    "main.js": "/quotes/static/js/main.d1732856.js",
+    "main.js": "/quotes/static/js/main.d309a16f.js",
     "index.html": "/quotes/index.html",
     "static/media/heart-02-svgrepo-com.svg": "/quotes/static/media/heart-02-svgrepo-com.3cafed166673ab89fddd7b36b2adadb3.svg",
     "main.f59f3679.css.map": "/quotes/static/css/main.f59f3679.css.map",
-    "main.d1732856.js.map": "/quotes/static/js/main.d1732856.js.map"
+    "main.d309a16f.js.map": "/quotes/static/js/main.d309a16f.js.map"
   },
   "entrypoints": [
     "static/css/main.f59f3679.css",
-    "static/js/main.d1732856.js"
+    "static/js/main.d309a16f.js"
   ]
 }
