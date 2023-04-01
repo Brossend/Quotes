@@ -2,7 +2,7 @@
   "name": "quotes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Brossend.github.io/quotes/",
+  "homepage": "https://Brossend.github.io/quotesProject/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
