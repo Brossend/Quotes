@@ -16,7 +16,9 @@ function QuoteOfDay({ category }) {
     fetchData();
   }, [category]);
 
-  return (
+  return quote.content === undefined ? (
+    <></>
+  ) : (
     <div
       className={`col-10 col-sm-11 col-md-11 col-lg-11 col-xl-11 ${styles.container}`}
     >
